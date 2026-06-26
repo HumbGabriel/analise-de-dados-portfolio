@@ -1,0 +1,51 @@
+Aqui está uma estrutura de README.md profissional e estratégica para o seu projeto. Ela foi desenhada para destacar que você não apenas "raspou dados", mas que realizou uma análise que gera inteligência competitiva.
+
+Copie e cole este conteúdo no seu arquivo README.md:
+📚 CEO Library Network Analysis
+🎯 Objetivo
+
+Este projeto visa identificar padrões de conhecimento e os "pontos de convergência" intelectual entre líderes globais e influenciadores de referência (como Elon Musk, Bill Gates, Barack Obama, entre outros). Através de técnicas de web scraping e análise de dados, buscamos descobrir quais livros formam a base intelectual compartilhada por essas personalidades.
+🛠️ Tecnologias Utilizadas
+
+    Python: Linguagem principal para automação e análise.
+
+    BeautifulSoup: Extração de dados estruturados das listas de recomendações.
+
+    Pandas: Manipulação, limpeza e cruzamento de dados (Data Wrangling).
+
+📊 Metodologia
+
+O projeto foi estruturado em um pipeline de dados funcional:
+
+    Coleta (Scraping): Mineração automatizada de 10 bibliotecas pessoais de referência.
+
+    Normalização: Padronização e estruturação dos dados em um único DataFrame unificado.
+
+    Análise de Consenso: Aplicação de algoritmos de detecção de duplicatas para filtrar recomendações únicas e identificar livros presentes em múltiplas listas, estabelecendo um ranking de autoridade intelectual.
+
+📈 Principais Insights
+
+    Convergência de Elite: Identificamos títulos fundamentais que aparecem como consenso entre diferentes perfis (tecnologia, política e negócios).
+
+    Nós de Conexão: Mapeamos autores/curadores (como Walter Isaacson) que atuam como pontos de intersecção entre o pensamento de diferentes líderes globais.
+
+    Inteligência de Rede: A análise provou que a rede de leitura desses líderes é altamente interconectada, indicando uma base comum de conhecimento que influencia decisões globais.
+
+📂 Estrutura do Repositório
+
+    scraper.py: Script responsável pela coleta dos dados nas URLs selecionadas.
+
+    analise_consenso.py: Script de análise estatística e identificação de padrões.
+
+    base_recomendacoes_ceos.csv: Base de dados bruta com as recomendações.
+
+    livros_ouro_consenso.csv: Dataset refinado com os livros de maior autoridade.
+
+🚀 Como Executar
+
+    Instale as dependências: pip install pandas requests beautifulsoup4
+
+    Rode o scraper: python scraper.py
+
+    Execute a análise: python analise_consenso.py
+
